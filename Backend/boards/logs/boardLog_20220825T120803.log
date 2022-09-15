@@ -1,0 +1,23 @@
+25/03/2022 12:03:04.567 {main} DEBUG _.s.web.servlet.HandlerMapping.Mappings  - 
+	c.n.b.c.BoardController:
+	{PUT [/boards/updateBoard/{email}]}: updateBoard(Board,String)
+	{GET [/boards/getBoard/{email}/{boardId}]}: getBoard(String,int)
+	{DELETE [/boards/deleteBoard/{email}/{boardId}]}: deleteBoard(String,int,HttpServletRequest)
+	{POST [/boards/addBoard/{email}]}: addNewBoard(Board,String,HttpServletRequest)
+25/03/2022 12:03:04.582 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - 4 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+25/03/2022 12:03:05.318 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter  - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+25/03/2022 12:03:05.377 {main} DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver  - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+25/03/2022 12:03:05.415 {main} INFO  org.springframework.mock.web.MockServletContext  - Initializing Spring TestDispatcherServlet ''
+25/03/2022 12:03:05.415 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Initializing Servlet ''
+25/03/2022 12:03:05.420 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected AcceptHeaderLocaleResolver
+25/03/2022 12:03:05.420 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected FixedThemeResolver
+25/03/2022 12:03:05.421 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@80bfdc6
+25/03/2022 12:03:05.421 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6edcad64
+25/03/2022 12:03:05.421 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+25/03/2022 12:03:05.422 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Completed initialization in 7 ms
+25/03/2022 12:03:05.659 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - POST "/boards/addBoard/test@email.com", parameters={}
+25/03/2022 12:03:05.665 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - Mapped to com.niit.boards.controller.BoardController#addNewBoard(Board, String, HttpServletRequest)
+25/03/2022 12:03:05.802 {main} DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor  - Read "application/json" to [Board(boardId=1, boardName=test board, boardDescription=testing purpose only, availableTaskStatus=[i (truncated)...]
+25/03/2022 12:03:05.864 {main} DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor  - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+25/03/2022 12:03:05.865 {main} DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor  - Writing [true]
+25/03/2022 12:03:05.932 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Completed 201 CREATED

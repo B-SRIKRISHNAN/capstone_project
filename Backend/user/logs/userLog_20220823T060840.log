@@ -1,0 +1,17 @@
+23/06/2022 18:06:42.563 {main} DEBUG _.s.web.servlet.HandlerMapping.Mappings  - 
+	c.n.u.c.UserController:
+	{POST [/user/register]}: register(User)
+	{PUT [/user/board/addBoard/{email}/{boardId}]}: addBoard(String,int,HttpServletRequest)
+	{DELETE [/user/board/deleteBoard/{email}/{boardId}]}: deleteBoard(String,int,HttpServletRequest)
+	{GET [/user/board/all/{email}]}: getAllBoards(String,HttpServletRequest)
+23/06/2022 18:06:42.615 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - 4 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+23/06/2022 18:06:44.202 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter  - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+23/06/2022 18:06:44.272 {main} DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver  - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+23/06/2022 18:06:44.320 {main} INFO  org.springframework.mock.web.MockServletContext  - Initializing Spring TestDispatcherServlet ''
+23/06/2022 18:06:44.321 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Initializing Servlet ''
+23/06/2022 18:06:44.326 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected AcceptHeaderLocaleResolver
+23/06/2022 18:06:44.326 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected FixedThemeResolver
+23/06/2022 18:06:44.327 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4eba373c
+23/06/2022 18:06:44.327 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.support.SessionFlashMapManager@767a014e
+23/06/2022 18:06:44.328 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+23/06/2022 18:06:44.328 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Completed initialization in 7 ms

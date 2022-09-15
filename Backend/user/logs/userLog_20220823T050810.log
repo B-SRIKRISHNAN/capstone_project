@@ -1,0 +1,23 @@
+23/42/2022 17:42:10.934 {main} DEBUG _.s.web.servlet.HandlerMapping.Mappings  - 
+	c.n.u.c.UserController:
+	{POST [/user/register]}: register(User)
+	{DELETE [/user/board/deleteBoard/{email}/{boardId}]}: deleteBoard(String,int)
+	{GET [/user/board/all/{email}]}: getAllBoards(String)
+	{PUT [/user/board/addBoard/{email}/{boardId}]}: addBoard(String,int,HttpServletRequest)
+23/42/2022 17:42:10.943 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - 4 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+23/42/2022 17:42:11.718 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter  - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+23/42/2022 17:42:11.796 {main} DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver  - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+23/42/2022 17:42:11.837 {main} INFO  org.springframework.mock.web.MockServletContext  - Initializing Spring TestDispatcherServlet ''
+23/42/2022 17:42:11.838 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Initializing Servlet ''
+23/42/2022 17:42:11.841 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected AcceptHeaderLocaleResolver
+23/42/2022 17:42:11.841 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected FixedThemeResolver
+23/42/2022 17:42:11.842 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4eba373c
+23/42/2022 17:42:11.842 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.support.SessionFlashMapManager@767a014e
+23/42/2022 17:42:11.843 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+23/42/2022 17:42:11.843 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Completed initialization in 5 ms
+23/42/2022 17:42:12.070 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - POST "/user/register", parameters={}
+23/42/2022 17:42:12.078 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - Mapped to com.niit.user.controller.UserController#register(User)
+23/42/2022 17:42:12.190 {main} DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor  - Read "application/json;charset=UTF-8" to [User(email=testUser@email.com, password=test1234, firstName=test, lastName=user, phoneNumber=1234567 (truncated)...]
+23/42/2022 17:42:12.228 {main} DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor  - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+23/42/2022 17:42:12.229 {main} DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor  - Writing [true]
+23/42/2022 17:42:12.238 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Completed 201 CREATED

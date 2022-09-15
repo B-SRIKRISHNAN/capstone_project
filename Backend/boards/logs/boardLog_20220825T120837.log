@@ -1,0 +1,20 @@
+25/29/2022 12:29:38.376 {main} DEBUG _.s.web.servlet.HandlerMapping.Mappings  - 
+	c.n.b.c.BoardController:
+	{PUT [/boards/updateBoard/{email}]}: updateBoard(Board,String)
+	{DELETE [/boards/deleteBoard/{email}/{boardId}]}: deleteBoard(String,int,HttpServletRequest)
+	{GET [/boards/getBoard/{email}/{boardId}]}: getBoard(String,int)
+	{POST [/boards/addBoard/{email}]}: addNewBoard(Board,String,HttpServletRequest)
+25/29/2022 12:29:38.392 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - 4 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+25/29/2022 12:29:39.244 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter  - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+25/29/2022 12:29:39.311 {main} DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver  - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+25/29/2022 12:29:39.348 {main} INFO  org.springframework.mock.web.MockServletContext  - Initializing Spring TestDispatcherServlet ''
+25/29/2022 12:29:39.349 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Initializing Servlet ''
+25/29/2022 12:29:39.353 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected AcceptHeaderLocaleResolver
+25/29/2022 12:29:39.353 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected FixedThemeResolver
+25/29/2022 12:29:39.354 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4c6007fb
+25/29/2022 12:29:39.355 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3e33d73e
+25/29/2022 12:29:39.355 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+25/29/2022 12:29:39.355 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Completed initialization in 6 ms
+25/29/2022 12:29:39.677 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - DELETE "/boards/updateBoard/test@email.com", parameters={}
+25/29/2022 12:29:39.692 {main} WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver  - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+25/29/2022 12:29:39.694 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Completed 405 METHOD_NOT_ALLOWED

@@ -1,0 +1,20 @@
+25/26/2022 12:26:05.789 {main} DEBUG _.s.web.servlet.HandlerMapping.Mappings  - 
+	c.n.b.c.BoardController:
+	{PUT [/boards/updateBoard/{email}]}: updateBoard(Board,String)
+	{POST [/boards/addBoard/{email}]}: addNewBoard(Board,String,HttpServletRequest)
+	{GET [/boards/getBoard/{email}/{boardId}]}: getBoard(String,int)
+	{DELETE [/boards/deleteBoard/{email}/{boardId}]}: deleteBoard(String,int,HttpServletRequest)
+25/26/2022 12:26:05.805 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - 4 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+25/26/2022 12:26:06.723 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter  - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+25/26/2022 12:26:06.784 {main} DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver  - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+25/26/2022 12:26:06.817 {main} INFO  org.springframework.mock.web.MockServletContext  - Initializing Spring TestDispatcherServlet ''
+25/26/2022 12:26:06.818 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Initializing Servlet ''
+25/26/2022 12:26:06.823 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected AcceptHeaderLocaleResolver
+25/26/2022 12:26:06.823 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected FixedThemeResolver
+25/26/2022 12:26:06.824 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6edcad64
+25/26/2022 12:26:06.824 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4c6007fb
+25/26/2022 12:26:06.824 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+25/26/2022 12:26:06.824 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Completed initialization in 6 ms
+25/26/2022 12:26:07.026 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - POST "/boards/updateBoard/test@email.com", parameters={}
+25/26/2022 12:26:07.035 {main} WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver  - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+25/26/2022 12:26:07.037 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Completed 405 METHOD_NOT_ALLOWED

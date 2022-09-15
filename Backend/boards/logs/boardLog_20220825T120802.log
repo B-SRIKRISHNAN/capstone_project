@@ -1,0 +1,21 @@
+25/23/2022 12:23:03.341 {main} DEBUG _.s.web.servlet.HandlerMapping.Mappings  - 
+	c.n.b.c.BoardController:
+	{PUT [/boards/updateBoard/{email}]}: updateBoard(Board,String)
+	{DELETE [/boards/deleteBoard/{email}/{boardId}]}: deleteBoard(String,int,HttpServletRequest)
+	{GET [/boards/getBoard/{email}/{boardId}]}: getBoard(String,int)
+	{POST [/boards/addBoard/{email}]}: addNewBoard(Board,String,HttpServletRequest)
+25/23/2022 12:23:03.360 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - 4 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+25/23/2022 12:23:04.277 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter  - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+25/23/2022 12:23:04.379 {main} DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver  - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+25/23/2022 12:23:04.431 {main} INFO  org.springframework.mock.web.MockServletContext  - Initializing Spring TestDispatcherServlet ''
+25/23/2022 12:23:04.433 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Initializing Servlet ''
+25/23/2022 12:23:04.438 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected AcceptHeaderLocaleResolver
+25/23/2022 12:23:04.438 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected FixedThemeResolver
+25/23/2022 12:23:04.439 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6edcad64
+25/23/2022 12:23:04.443 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4c6007fb
+25/23/2022 12:23:04.444 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+25/23/2022 12:23:04.444 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Completed initialization in 11 ms
+25/23/2022 12:23:04.687 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - POST "/boards/addBoard/test@email.com", parameters={}
+25/23/2022 12:23:04.694 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - Mapped to com.niit.boards.controller.BoardController#addNewBoard(Board, String, HttpServletRequest)
+25/23/2022 12:23:04.835 {main} DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor  - Read "application/json" to [Board(boardId=1, boardName=test board, boardDescription=testing purpose only, availableTaskStatus=[i (truncated)...]
+25/23/2022 12:23:04.888 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Failed to complete request: java.lang.NullPointerException: Cannot invoke "io.jsonwebtoken.Claims.getSubject()" because "claims" is null

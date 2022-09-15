@@ -1,0 +1,41 @@
+25/28/2022 12:28:14.827 {main} DEBUG _.s.web.servlet.HandlerMapping.Mappings  - 
+	c.n.b.c.BoardController:
+	{POST [/boards/addBoard/{email}]}: addNewBoard(Board,String,HttpServletRequest)
+	{GET [/boards/getBoard/{email}/{boardId}]}: getBoard(String,int)
+	{DELETE [/boards/deleteBoard/{email}/{boardId}]}: deleteBoard(String,int,HttpServletRequest)
+	{PUT [/boards/updateBoard/{email}]}: updateBoard(Board,String)
+25/28/2022 12:28:14.841 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - 4 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+25/28/2022 12:28:15.450 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter  - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+25/28/2022 12:28:15.514 {main} DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver  - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+25/28/2022 12:28:15.553 {main} INFO  org.springframework.mock.web.MockServletContext  - Initializing Spring TestDispatcherServlet ''
+25/28/2022 12:28:15.554 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Initializing Servlet ''
+25/28/2022 12:28:15.558 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected AcceptHeaderLocaleResolver
+25/28/2022 12:28:15.558 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected FixedThemeResolver
+25/28/2022 12:28:15.559 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4c6007fb
+25/28/2022 12:28:15.559 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3e33d73e
+25/28/2022 12:28:15.559 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+25/28/2022 12:28:15.559 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Completed initialization in 5 ms
+25/28/2022 12:28:15.650 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - PUT "/boards/updateBoard/test@email.com", parameters={}
+25/28/2022 12:28:15.658 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - Mapped to com.niit.boards.controller.BoardController#updateBoard(Board, String)
+25/28/2022 12:28:15.711 {main} WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver  - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> com.niit.boards.controller.BoardController.updateBoard(com.niit.boards.model.Board,java.lang.String) throws com.niit.boards.exceptions.BoardNotExistException]
+25/28/2022 12:28:15.715 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Completed 400 BAD_REQUEST
+25/34/2022 12:34:15.278 {main} DEBUG _.s.web.servlet.HandlerMapping.Mappings  - 
+	c.n.b.c.BoardController:
+	{GET [/boards/getBoard/{email}/{boardId}]}: getBoard(String,int)
+	{PUT [/boards/updateBoard/{email}]}: updateBoard(Board,String)
+	{DELETE [/boards/deleteBoard/{email}/{boardId}]}: deleteBoard(String,int,HttpServletRequest)
+	{POST [/boards/addBoard/{email}]}: addNewBoard(Board,String,HttpServletRequest)
+25/34/2022 12:34:15.294 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - 4 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+25/34/2022 12:34:16.189 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter  - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+25/34/2022 12:34:16.283 {main} DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver  - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+25/34/2022 12:34:16.330 {main} INFO  org.springframework.mock.web.MockServletContext  - Initializing Spring TestDispatcherServlet ''
+25/34/2022 12:34:16.331 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Initializing Servlet ''
+25/34/2022 12:34:16.336 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected AcceptHeaderLocaleResolver
+25/34/2022 12:34:16.337 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected FixedThemeResolver
+25/34/2022 12:34:16.338 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3e33d73e
+25/34/2022 12:34:16.339 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6981f8f3
+25/34/2022 12:34:16.339 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+25/34/2022 12:34:16.340 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Completed initialization in 9 ms
+25/34/2022 12:34:16.580 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - DELETE "/boards/getBoard/test@email.com/1", parameters={}
+25/34/2022 12:34:16.591 {main} WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver  - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+25/34/2022 12:34:16.593 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Completed 405 METHOD_NOT_ALLOWED

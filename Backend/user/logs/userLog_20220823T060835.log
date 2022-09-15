@@ -1,0 +1,89 @@
+23/18/2022 18:18:36.096 {main} DEBUG _.s.web.servlet.HandlerMapping.Mappings  - 
+	c.n.u.c.UserController:
+	{POST [/user/register]}: register(User)
+	{PUT [/user/board/addBoard/{email}/{boardId}]}: addBoard(String,int,HttpServletRequest)
+	{GET [/user/board/all/{email}]}: getAllBoards(String,HttpServletRequest)
+	{DELETE [/user/board/deleteBoard/{email}/{boardId}]}: deleteBoard(String,int,HttpServletRequest)
+23/18/2022 18:18:36.116 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - 4 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+23/18/2022 18:18:37.411 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter  - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+23/18/2022 18:18:37.494 {main} DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver  - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+23/18/2022 18:18:37.536 {main} INFO  org.springframework.mock.web.MockServletContext  - Initializing Spring TestDispatcherServlet ''
+23/18/2022 18:18:37.537 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Initializing Servlet ''
+23/18/2022 18:18:37.543 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected AcceptHeaderLocaleResolver
+23/18/2022 18:18:37.543 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected FixedThemeResolver
+23/18/2022 18:18:37.545 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@26f46fa6
+23/18/2022 18:18:37.545 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.support.SessionFlashMapManager@227a47
+23/18/2022 18:18:37.545 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+23/18/2022 18:18:37.545 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Completed initialization in 7 ms
+23/18/2022 18:18:37.663 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - GET "/user/board/all/testUser@email.com", parameters={}
+23/18/2022 18:18:37.675 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - Mapped to com.niit.user.controller.UserController#getAllBoards(String, HttpServletRequest)
+23/18/2022 18:18:37.797 {main} DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor  - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+23/18/2022 18:18:37.799 {main} DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor  - Writing [[1, 2, 3, 4, 5]]
+23/18/2022 18:18:37.891 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Completed 200 OK
+23/18/2022 18:18:37.978 {main} DEBUG _.s.web.servlet.HandlerMapping.Mappings  - 
+	c.n.u.c.UserController:
+	{POST [/user/register]}: register(User)
+	{PUT [/user/board/addBoard/{email}/{boardId}]}: addBoard(String,int,HttpServletRequest)
+	{GET [/user/board/all/{email}]}: getAllBoards(String,HttpServletRequest)
+	{DELETE [/user/board/deleteBoard/{email}/{boardId}]}: deleteBoard(String,int,HttpServletRequest)
+23/18/2022 18:18:37.981 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - 4 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+23/18/2022 18:18:37.993 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter  - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+23/18/2022 18:18:37.998 {main} DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver  - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+23/18/2022 18:18:37.998 {main} INFO  org.springframework.mock.web.MockServletContext  - Initializing Spring TestDispatcherServlet ''
+23/18/2022 18:18:37.998 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Initializing Servlet ''
+23/18/2022 18:18:37.999 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected AcceptHeaderLocaleResolver
+23/18/2022 18:18:37.999 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected FixedThemeResolver
+23/18/2022 18:18:37.999 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@433c6abb
+23/18/2022 18:18:37.999 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.support.SessionFlashMapManager@288f173f
+23/18/2022 18:18:38.000 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+23/18/2022 18:18:38.000 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Completed initialization in 2 ms
+23/18/2022 18:18:38.098 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - POST "/user/register", parameters={}
+23/18/2022 18:18:38.098 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - Mapped to com.niit.user.controller.UserController#register(User)
+23/18/2022 18:18:38.304 {main} DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor  - Read "application/json;charset=UTF-8" to [User(email=testUser@email.com, password=test1234, firstName=test, lastName=user, phoneNumber=1234567 (truncated)...]
+23/18/2022 18:18:38.386 {main} DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor  - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+23/18/2022 18:18:38.386 {main} DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor  - Writing [true]
+23/18/2022 18:18:38.389 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Completed 201 CREATED
+23/18/2022 18:18:38.443 {main} DEBUG _.s.web.servlet.HandlerMapping.Mappings  - 
+	c.n.u.c.UserController:
+	{POST [/user/register]}: register(User)
+	{PUT [/user/board/addBoard/{email}/{boardId}]}: addBoard(String,int,HttpServletRequest)
+	{GET [/user/board/all/{email}]}: getAllBoards(String,HttpServletRequest)
+	{DELETE [/user/board/deleteBoard/{email}/{boardId}]}: deleteBoard(String,int,HttpServletRequest)
+23/18/2022 18:18:38.444 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - 4 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+23/18/2022 18:18:38.460 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter  - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+23/18/2022 18:18:38.472 {main} DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver  - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+23/18/2022 18:18:38.481 {main} INFO  org.springframework.mock.web.MockServletContext  - Initializing Spring TestDispatcherServlet ''
+23/18/2022 18:18:38.492 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Initializing Servlet ''
+23/18/2022 18:18:38.493 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected AcceptHeaderLocaleResolver
+23/18/2022 18:18:38.494 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected FixedThemeResolver
+23/18/2022 18:18:38.494 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6dc1dc69
+23/18/2022 18:18:38.496 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7e9f2c32
+23/18/2022 18:18:38.497 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+23/18/2022 18:18:38.508 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Completed initialization in 15 ms
+23/18/2022 18:18:38.517 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - DELETE "/user/board/deleteBoard/testUser@email.com/6", parameters={}
+23/18/2022 18:18:38.534 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - Mapped to com.niit.user.controller.UserController#deleteBoard(String, int, HttpServletRequest)
+23/18/2022 18:18:38.554 {main} DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor  - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+23/18/2022 18:18:38.563 {main} DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor  - Writing [true]
+23/18/2022 18:18:38.563 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Completed 200 OK
+23/18/2022 18:18:38.633 {main} DEBUG _.s.web.servlet.HandlerMapping.Mappings  - 
+	c.n.u.c.UserController:
+	{POST [/user/register]}: register(User)
+	{PUT [/user/board/addBoard/{email}/{boardId}]}: addBoard(String,int,HttpServletRequest)
+	{GET [/user/board/all/{email}]}: getAllBoards(String,HttpServletRequest)
+	{DELETE [/user/board/deleteBoard/{email}/{boardId}]}: deleteBoard(String,int,HttpServletRequest)
+23/18/2022 18:18:38.636 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - 4 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+23/18/2022 18:18:38.708 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter  - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+23/18/2022 18:18:38.714 {main} DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver  - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+23/18/2022 18:18:38.724 {main} INFO  org.springframework.mock.web.MockServletContext  - Initializing Spring TestDispatcherServlet ''
+23/18/2022 18:18:38.725 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Initializing Servlet ''
+23/18/2022 18:18:38.725 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected AcceptHeaderLocaleResolver
+23/18/2022 18:18:38.725 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected FixedThemeResolver
+23/18/2022 18:18:38.726 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4f8d86e4
+23/18/2022 18:18:38.726 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5f631ca0
+23/18/2022 18:18:38.726 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+23/18/2022 18:18:38.727 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Completed initialization in 2 ms
+23/18/2022 18:18:38.735 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - PUT "/user/board/addBoard/testUser@email.com/6", parameters={}
+23/18/2022 18:18:38.736 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - Mapped to com.niit.user.controller.UserController#addBoard(String, int, HttpServletRequest)
+23/18/2022 18:18:38.745 {main} DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor  - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+23/18/2022 18:18:38.745 {main} DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor  - Writing [true]
+23/18/2022 18:18:38.746 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Completed 201 CREATED

@@ -1,0 +1,20 @@
+25/31/2022 12:31:51.711 {main} DEBUG _.s.web.servlet.HandlerMapping.Mappings  - 
+	c.n.b.c.BoardController:
+	{PUT [/boards/updateBoard/{email}]}: updateBoard(Board,String)
+	{DELETE [/boards/deleteBoard/{email}/{boardId}]}: deleteBoard(String,int,HttpServletRequest)
+	{POST [/boards/addBoard/{email}]}: addNewBoard(Board,String,HttpServletRequest)
+	{GET [/boards/getBoard/{email}/{boardId}]}: getBoard(String,int)
+25/31/2022 12:31:51.734 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping  - 4 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+25/31/2022 12:31:52.638 {main} DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter  - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+25/31/2022 12:31:52.701 {main} DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver  - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+25/31/2022 12:31:52.742 {main} INFO  org.springframework.mock.web.MockServletContext  - Initializing Spring TestDispatcherServlet ''
+25/31/2022 12:31:52.743 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Initializing Servlet ''
+25/31/2022 12:31:52.748 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected AcceptHeaderLocaleResolver
+25/31/2022 12:31:52.748 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected FixedThemeResolver
+25/31/2022 12:31:52.750 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3e33d73e
+25/31/2022 12:31:52.750 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6981f8f3
+25/31/2022 12:31:52.750 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+25/31/2022 12:31:52.751 {main} INFO  o.s.test.web.servlet.TestDispatcherServlet  - Completed initialization in 8 ms
+25/31/2022 12:31:52.874 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - DELETE "/boards/updateBoard/test@email.com/1", parameters={}
+25/31/2022 12:31:52.883 {main} WARN  org.springframework.web.servlet.PageNotFound  - No mapping for DELETE /boards/updateBoard/test@email.com/1
+25/31/2022 12:31:52.887 {main} DEBUG o.s.test.web.servlet.TestDispatcherServlet  - Completed 404 NOT_FOUND
